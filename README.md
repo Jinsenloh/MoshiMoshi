@@ -17,7 +17,6 @@ A workload and well-being companion for university students, submitted by **4AGI
 
 | Material | Link |
 | --- | --- |
-| Full submission document | [MoshiMoshi — 4AGI](docs/4AGI.docx) |
 | Google Docs presentation material | [Open the shared document](https://docs.google.com/document/d/1XTeTMmBsbtqildiGJjfUoeVCdnfJg-UFxQdWZud-LKc/edit?usp=sharing) |
 | Presentation slides | [View slides on Canva](https://canva.link/evvrrgeeuauiilh) |
 | Interactive UI prototype | [Explore MoshiMoshi in Figma](https://www.figma.com/proto/vAz2Dtc4Xle1BFnbD1YdZM/MoshiMoshi?node-id=2240-2866&scaling=scale-down&content-scaling=fixed&page-id=2005%3A5&starting-point-node-id=2284%3A347&show-proto-sidebar=1) |
@@ -171,7 +170,7 @@ The proposed context-aware approach also explores whether local activity signals
 | --- | --- | --- |
 | Mobile interface | React Native, Android first | Matches the team's experience and keeps the initial platform scope focused. |
 | Device signals | Native Android module in Kotlin | Explores permission-based app-usage, screen-on, and calendar signals; manual/calendar input remains a fallback. |
-| On-device reasoning | Python/FastAPI in Termux, exploring Gemma 3 1B | Supports an experimental local inference setup; device performance, model suitability, and packaging need validation. |
+| On-device reasoning | Python/FastAPI in Termux, exploring Qwen3.5-0.8B | Supports an experimental local inference setup; device performance, model suitability, and packaging need validation. |
 | Load scoring | Local rule-based Python engine | Gives explainable load estimates; weightings need student-pilot feedback. |
 | Optional cloud reasoning | DeepSeek API | Intended for limited check-in summaries; consent, data minimization, and offline fallback are required design work. |
 | Voice | ElevenLabs | Proposed spoken companion responses; network dependency and usage cost constrain session length. |
