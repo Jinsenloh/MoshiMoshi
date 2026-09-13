@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/logo.jpeg" alt="MoshiMoshi logo with a girl and rabbit companion" width="300">
+</p>
+
 # MoshiMoshi
 
 A workload and well-being companion for university students, submitted by **4AGI** for **CodeNection 2026**.
