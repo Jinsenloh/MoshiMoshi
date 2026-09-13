@@ -1,2 +1,0 @@
-Problem Statement: Stress & Workload Manager (Track 1 — Lifestyle & Personal Productivity)
-Full AI context: see context/00-README.md
